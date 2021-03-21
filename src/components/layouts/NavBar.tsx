@@ -7,7 +7,7 @@ const NavBar = () => {
       id="nav-bar"
       className="bg-gray-100 flex justify-between w-full px-5 py-5 border-b-1 border-b-gray-300 "
     >
-      <h1 className="font-bold text-xl text-gray-800">Giallo</h1>
+      <h1 className="font-bold text-xl text-gray-800">Gillio</h1>
       <div className="flex">
         <svg
           id="cart-icon"
