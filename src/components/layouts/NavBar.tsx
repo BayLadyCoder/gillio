@@ -3,7 +3,10 @@ import PropTypes from "prop-types";
 
 const NavBar = () => {
   return (
-    <div className="bg-gray-100 flex justify-between w-full px-5 py-5 border-b-1 border-b-gray-300 ">
+    <nav
+      id="nav-bar"
+      className="bg-gray-100 flex justify-between w-full px-5 py-5 border-b-1 border-b-gray-300 "
+    >
       <h1 className="font-bold text-xl text-gray-800">Giallo</h1>
       <div className="flex">
         <svg
@@ -28,7 +31,7 @@ const NavBar = () => {
           <p className="font-bold">$100</p>
         </div>
       </div>
-    </div>
+    </nav>
   );
 };
 
